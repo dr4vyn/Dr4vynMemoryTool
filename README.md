@@ -1,13 +1,13 @@
 # Dr4vyn Memory Tool
 
-C++ ile yazılmış basit bir bellek okuma/yazma aracı.
-Windows API'leri (OpenProcess, ReadProcessMemory, WriteProcessMemory) kullanılarak geliştirilmiştir.
+A simple memory reading/writing tool written in C++.
+Developed using Windows APIs (OpenProcess, ReadProcessMemory, WriteProcessMemory).
 
-## Özellikler
-- Süreç bulma (Process ID)
-- Bellekten değer okuma (ReadProcessMemory)
-- Belleğe değer yazma (WriteProcessMemory)
+## Features
+- Process finding (Process ID)
+- Reading values from memory (ReadProcessMemory)
+- Writing values to memory (WriteProcessMemory)
 
-## Kullanım
-1. Programı derleyin: `g++ main.cpp -o MemoryTool.exe`
-2. Çalıştırın: `./MemoryTool.exe`
+## Usage
+1. Compile the program: `g++ main.cpp -o MemoryTool.exe`
+2. Run it: `./MemoryTool.exe`
